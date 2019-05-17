@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParqueDiversoesApp", "ParqueDiversoes\ParqueDiversoesApp.csproj", "{D7F27D02-9BDE-45A7-B494-ED7DA2920DA7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParqueBLL", "ParqueBLL\ParqueBLL.csproj", "{5A4DFBA2-374F-4EE3-9B57-6D1AF43F412C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParqueDAL", "ParqueDAL\ParqueDAL.csproj", "{41668076-5D58-4979-B181-6FDF94531EB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{5A4DFBA2-374F-4EE3-9B57-6D1AF43F412C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A4DFBA2-374F-4EE3-9B57-6D1AF43F412C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A4DFBA2-374F-4EE3-9B57-6D1AF43F412C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41668076-5D58-4979-B181-6FDF94531EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41668076-5D58-4979-B181-6FDF94531EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41668076-5D58-4979-B181-6FDF94531EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41668076-5D58-4979-B181-6FDF94531EB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A3267C8-4D5F-4CF1-B959-A28F2CA4AF1B}
 	EndGlobalSection
 EndGlobal

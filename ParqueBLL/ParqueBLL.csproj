@@ -40,24 +40,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entrada.cs" />
     <Compile Include="FachadaParque.cs" />
     <Compile Include="IPassaporte.cs" />
     <Compile Include="PassaporteBasico.cs" />
     <Compile Include="PassaporteDecorator.cs" />
     <Compile Include="PassaporteFactory.cs" />
+    <Compile Include="PassaporteIdoso.cs" />
     <Compile Include="PassaportePagueBem.cs" />
+    <Compile Include="PassaporteSeguroGarantido.cs" />
     <Compile Include="PassaporteUniversitario.cs" />
     <Compile Include="PromocoesAtivas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Venda.cs" />
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <None Include="docs\exerc_Arquitetura.pdf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="docs\bll1.jpg" />
-    <Content Include="docs\bll2.jpg" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

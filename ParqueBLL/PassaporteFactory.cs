@@ -8,11 +8,11 @@ namespace ParqueBLL
 {
     class PassaporteFactory
     {
-        public static IPassaporte CriarPassaporte(String umCliente, 
-                                                  int umNroDias, 
-                                                  decimal umValorBasico, 
-                                                  int dia, 
-                                                  int mes, 
+        public static IPassaporte CriarPassaporte(String umCliente,
+                                                  int umNroDias,
+                                                  decimal umValorBasico,
+                                                  int dia,
+                                                  int mes,
                                                   int ano,
                                                   PromocoesAtivas[] descontos)
         {
@@ -24,8 +24,10 @@ namespace ParqueBLL
                 {
                     case PromocoesAtivas.PAGUEBEM: novo = new PassaportePagueBem(novo); break;
                     case PromocoesAtivas.UNIVERITARIO: novo = new PassaporteUniversitario(novo); break;
+                    case PromocoesAtivas.IDOSO: novo = new PassaporteIdoso(novo); break;
+                    case PromocoesAtivas.SEGUROGARANTIDO: novo = new PassaporteSeguroGarantido(novo); break;
                 }
-            } 
+            }
 
             return novo;
         }

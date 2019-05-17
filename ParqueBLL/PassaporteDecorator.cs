@@ -22,7 +22,7 @@ namespace ParqueBLL
 
         public virtual decimal valorDoDia(int nrodia) { return passDecorado.valorDoDia(nrodia); }
 
-        public decimal valorTotal()
+        public virtual decimal valorTotal()
         {
             decimal valorTotal = 0M;
             for (int d = 1; d <= NroDias; d++)

@@ -19,6 +19,10 @@ namespace ParqueDiversoesApp
             passaportes.Add(bll.CriarPassaporte("John PagueBem", 7, 100, 10, 3, 2017, new PromocoesAtivas[] { PromocoesAtivas.PAGUEBEM }));
             passaportes.Add(bll.CriarPassaporte("John Student PagueBem", 7, 100, 10, 4, 2017, new PromocoesAtivas[] { PromocoesAtivas.UNIVERITARIO, PromocoesAtivas.PAGUEBEM }));
             passaportes.Add(bll.CriarPassaporte("John PagueBem Student", 7, 100, 10, 5, 2017, new PromocoesAtivas[] { PromocoesAtivas.PAGUEBEM, PromocoesAtivas.UNIVERITARIO }));
+            passaportes.Add(bll.CriarPassaporte("John Idoso", 7, 100, 10, 5, 2017, new PromocoesAtivas[] { PromocoesAtivas.IDOSO }));
+            passaportes.Add(bll.CriarPassaporte("John Idoso Garantido", 7, 100, 10, 5, 2017, new PromocoesAtivas[] { PromocoesAtivas.IDOSO, PromocoesAtivas.SEGUROGARANTIDO }));
+            passaportes.Add(bll.CriarPassaporte("John PagueBem Student Seguro", 7, 100, 10, 5, 2017, new PromocoesAtivas[] { PromocoesAtivas.PAGUEBEM, PromocoesAtivas.UNIVERITARIO, PromocoesAtivas.SEGUROGARANTIDO }));
+            passaportes.Add(bll.CriarPassaporte("John Idoso PagueBem Student Garantido", 7, 100, 10, 5, 2017, new PromocoesAtivas[] { PromocoesAtivas.PAGUEBEM, PromocoesAtivas.UNIVERITARIO, PromocoesAtivas.IDOSO, PromocoesAtivas.SEGUROGARANTIDO }));
 
             foreach (IPassaporte pass in passaportes) {
                 Console.WriteLine(pass);
